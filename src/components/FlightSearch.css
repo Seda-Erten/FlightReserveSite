@@ -1,0 +1,84 @@
+.flight-search-container {
+    max-width: 650px;
+    margin: -470px 10px 0 auto;
+    padding: 40px;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    border-radius: 1px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 6px solid #e0e0e0;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.journey-type-options {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.journey-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #e0e0e0;
+    color: #333;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.journey-button.active {
+    background-color: rgb(246, 179, 51);
+    color: #fff;
+}
+
+.flight-search-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.form-row {
+    flex: 1 1 calc(50% - 20px);
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 4px;
+    font-size: 14px;
+    color: #555;
+}
+
+input,
+select {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+
+.search-button {
+    background-color: rgb(246, 179, 51);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.search-button:hover {
+    background-color: rgb(246, 179, 51);
+}

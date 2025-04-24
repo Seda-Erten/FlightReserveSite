@@ -1,0 +1,40 @@
+.live-chat-container {
+    position: fixed;
+    bottom: 50px;
+    right: 1px;
+    z-index: 1000;
+
+}
+
+.live-chat-button {
+    background-color: rgb(246, 179, 51);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 15px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    transform: scale(0.8);
+
+}
+
+
+.live-chat-button:hover {
+    background-color: rgb(246, 179, 51);
+    transform: scale(1);
+    padding: 20px 20px;
+
+}
+
+
+.chat-icon {
+    margin-right: 8px;
+    font-size: 1.5rem;
+
+}

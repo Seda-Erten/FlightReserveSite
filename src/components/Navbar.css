@@ -1,0 +1,87 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    background-color: #e0e0e0;
+    color: rgb(246, 179, 51);
+    height: 10vh;
+}
+
+.navbar-link-home,
+.navbar-link-contact,
+.navbar-link-auth,
+.navbar-link-reservation,
+.navbar-link-auth-logout-button {
+    padding: 10px 5px;
+    border-radius: 1px;
+    margin: 4px 4px;
+    background-color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.navbar-link-home:hover,
+.navbar-link-contact:hover,
+.navbar-link-auth:hover,
+.navbar-link-reservation:hover,
+.navbar-link-auth-logout-button {
+    transform: scale(1.1);
+}
+
+.hamburger {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    padding: 25px;
+}
+
+.logo {
+    height: 65px;
+    width: 80px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.navbar-title {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 5px;
+}
+
+@media (max-width: 768px) {
+    .navbar-links {
+        display: none;
+        flex-direction: column;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .navbar-links.active {
+        display: flex;
+        position: absolute;
+        top: 60px;
+        right: 10px;
+        background-color: #2b2d2e;
+        padding: 10px;
+        border-radius: 5px;
+        width: 80%;
+        text-align: center;
+    }
+
+    .navbar-link-home,
+    .navbar-link-contact,
+    .navbar-link-auth,
+    .navbar-link-reservation {
+        padding: 10px;
+        margin: 5px 0;
+    }
+}
