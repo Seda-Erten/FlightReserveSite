@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+
+
+}
+
+.navbar a {
+  color: #4b4949;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #3e3d3d;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-top: 300px;
+}
